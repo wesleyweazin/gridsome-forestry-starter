@@ -7,6 +7,12 @@ fields:
   label: Title
   config:
     required: true
+- name: chinese_title
+  type: text
+  config:
+    required: true
+  label: Chinese title
+  default: 請輸入中文標題
 - type: textarea
   name: excerpt
   label: Excerpt
