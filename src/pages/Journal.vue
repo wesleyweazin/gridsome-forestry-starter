@@ -41,6 +41,11 @@ query Journal {
 
 <script>
 export default {
+  methods: {
+    toURIFormat(s){
+      return encodeURIComponent(s)
+    },
+  }
 }
 </script>
 
